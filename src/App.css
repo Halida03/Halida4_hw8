@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+.email-input{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.email-input input{
+  height: 40px;
+  width: 200px;
+}
+.email-button button{
+  height: 30px;
+  width: 100px;
+}
+.email-button{
+  display: flex;
+  gap: 4px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 300px 100px;
+  align-items: center;
+}
+
+.title{
+  margin-bottom: 100px;
+}
+.products{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+#li{
+  width: 300px;
+}
+.img{
+  width: 300px;
+  height: 300px;
+}
+
+.icon-heart {
+  width: 35px;
+  height: 25px;
+  color: #000000;
+}
+
+.icon-heart:hover {
+  color: rgb(245, 80, 80);
+}
+.Liked{
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  color: black;
+  translate: 0,2s;
+}
+.Liked:hover{
+  color: rgb(90, 89, 89);
+}
+
